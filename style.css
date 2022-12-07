@@ -50,23 +50,15 @@ h6{
 
 }
 
-input{
-    margin-left: auto;
+label{
+    display: inline-block;
+    width: 100px;
 }
 
-.nome{
-    font-size: 18px;
-    padding: 20px;
-}
 
-.altura{
+.nome, .altura, .peso {
     font-size: 18px;
-    padding: 20px;
-}
-
-.peso{
-    font-size: 18px;
-    padding: 20px;
+    margin: 10px;
 }
 
 button{
