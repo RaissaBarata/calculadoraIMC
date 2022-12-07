@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    list-style-type: none;
+    font-family: clash display;
+}
+
+header{
+    background-color: black;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgb(197, 197, 197); 
+}
+
+h1 {
+    margin: 20px;
+    font-family: clash display;
+    font-weight: 200;
+    color: rgb(225, 252, 252);
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    width: 300px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(197, 197, 197); 
+    color: rgb(225, 252, 252);
+    
+}
+
+h6{
+    font-family: clash display;
+    font-size: 30px;
+    font-weight: 100;
+    padding-bottom: 20px;
+    text-decoration: underline;
+
+}
+
+input{
+    margin-left: auto;
+}
+
+.nome{
+    font-size: 18px;
+    padding: 20px;
+}
+
+.altura{
+    font-size: 18px;
+    padding: 20px;
+}
+
+.peso{
+    font-size: 18px;
+    padding: 20px;
+}
+
+button{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:rgb(225, 252, 252);
+    font-family: clash display;
+
+}
+
+button:hover{
+    background-color:rgb(159, 214, 214);
+}
+
+.resultado{
+    border: solid 1px rgb(225, 252, 252);
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    font-weight: 100;
+    color: rgb(225, 252, 252);
+    
+}
